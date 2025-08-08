@@ -8,26 +8,29 @@
 - **Framer Motion** - Animations fluides
 - **shadcn/ui** - Composants UI modernes
 - **Lucide React** - Icônes vectorielles
+- **EmailJS** - Envoi d'emails depuis le formulaire de contact
 
 ## Structure du projet
 
 ```
 src/
 ├── app/
-│   ├── globals.css          # Styles globaux et variables CSS
-│   ├── layout.tsx           # Layout principal avec métadonnées
-│   └── page.tsx             # Page d'accueil
+│   ├── api/contact/     # API route pour l'envoi d'emails
+│   ├── globals.css      # Styles globaux et variables CSS
+│   ├── layout.tsx       # Layout principal avec métadonnées
+│   └── page.tsx         # Page d'accueil
 ├── components/
-│   ├── ui/                  # Composants shadcn/ui
+│   ├── ui/              # Composants shadcn/ui
 │   │   ├── button.tsx
 │   │   └── card.tsx
-│   ├── Hero.tsx            # Section d'accueil
-│   ├── About.tsx           # Section à propos
-│   ├── Projects.tsx        # Section projets
-│   ├── Skills.tsx          # Section compétences
-│   ├── Experience.tsx      # Section expérience
-│   ├── DownloadCV.tsx      # Section téléchargement CV
-│   └── Contact.tsx         # Section contact
+│   ├── Hero.tsx         # Section d'accueil
+│   ├── About.tsx        # Section à propos
+│   ├── Projects.tsx     # Section projets
+│   ├── Skills.tsx       # Section compétences
+│   ├── Experience.tsx   # Section expérience
+│   ├── DownloadCV.tsx   # Section téléchargement CV
+│   ├── Contact.tsx      # Section contact
+│   └── Header.tsx       # Navigation
 └── lib/
     └── utils.ts            # Utilitaires
 ```
@@ -63,4 +66,4 @@ Ce projet est sous licence MIT.
 
 ---
 
-**Développé avec amour (et vibe hihi) par Loïck Keveen Niongolo**
+**Développé avec ❤️ (et vibe hihi) par Loïck Keveen Niongolo**
