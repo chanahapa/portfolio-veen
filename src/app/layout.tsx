@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Loïck Keveen Niongolo - Développeur Full Stack",
   description:
-    "Portfolio de Loïck Keveen Niongolo, développeur full-stack basé à Pointe-Noire, Congo. Spécialisé dans le développement web et mobile avec des technologies modernes.",
+    "Portfolio de Loïck Keveen Niongolo, développeur full-stack basé en République du Congo. Spécialisé dans le développement web et mobile avec des technologies modernes.",
   keywords: [
     "développeur",
     "full-stack",
